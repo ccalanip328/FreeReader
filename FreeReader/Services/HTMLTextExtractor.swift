@@ -9,7 +9,9 @@ enum HTMLTextExtractor {
             return cleanText(from: element)
         }
 
-        let bodyText = try document.body()?.wholeText() ?? ""
+        // SwiftSoup 2.11.x no longer exposes `wholeText()` on Element.
+        // `text()` provides the visible text content (whitespace-normalized).
+        let bodyText = try document.body()?.text() ?? ""
         return sanitize(text: bodyText)
     }
 
@@ -33,8 +35,8 @@ enum HTMLTextExtractor {
         for selector in selectors {
             let elements = try document.select(selector)
             for element in elements.array() {
-                let text = try element.wholeText()
-                let length = text.trimmingCharacters(in: .whitespacesAndNewlines).count
+                let text = try element.text()
+                let length = text.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines).count
                 if length < 200 { continue }
 
                 let linkCount = try element.select("a").count
@@ -68,7 +70,7 @@ enum HTMLTextExtractor {
         html = html.replacingOccurrences(of: "<p>", with: "")
 
         let fragment = try? SwiftSoup.parseBodyFragment(html)
-        let text = (try? fragment?.body()?.wholeText()) ?? ""
+        let text = (try? fragment?.body()?.text()) ?? ""
         return sanitize(text: text)
     }
 

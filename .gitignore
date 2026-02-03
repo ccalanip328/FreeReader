@@ -1,0 +1,14 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# User-specific Xcode data
+xcuserdata/
+**/xcuserdata/
+
+# SwiftPM (Xcode) build artifacts
+.build/
+*.swiftpm/
+
