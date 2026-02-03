@@ -12,3 +12,7 @@ xcuserdata/
 .build/
 *.swiftpm/
 
+# VS Code / Cursor local history
+.vscode/*.log
+
+

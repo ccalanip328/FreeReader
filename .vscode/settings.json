@@ -1,0 +1,11 @@
+{
+  // SweetPad: point to this repo's Xcode project workspace
+  "sweetpad.workspacePath": "FreeReader.xcodeproj/project.xcworkspace",
+
+  // Optional: keep DerivedData inside the repo (easy to clean).
+  "sweetpad.build.derivedDataPath": ".build/DerivedData",
+
+  // CodeLLDB: use LLDB shipped with Xcode (required for iOS debugging)
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB"
+}
+
