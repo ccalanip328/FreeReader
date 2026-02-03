@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010000000000000000000001 /* FreeReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000001 /* FreeReaderApp.swift */; };
+		010000000000000000000002 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000002 /* Bookmark.swift */; };
+		010000000000000000000003 /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000003 /* Chapter.swift */; };
+		010000000000000000000004 /* ChapterContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000004 /* ChapterContent.swift */; };
+		010000000000000000000005 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000005 /* Favorite.swift */; };
+		010000000000000000000006 /* Novel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000006 /* Novel.swift */; };
+		010000000000000000000007 /* ReaderSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000007 /* ReaderSettings.swift */; };
+		010000000000000000000008 /* ReadingProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000008 /* ReadingProgress.swift */; };
+		010000000000000000000009 /* CacheStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000009 /* CacheStore.swift */; };
+		01000000000000000000000A /* HJWZWService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000A /* HJWZWService.swift */; };
+		01000000000000000000000B /* HTMLTextExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000B /* HTMLTextExtractor.swift */; };
+		01000000000000000000000C /* LibraryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000C /* LibraryStore.swift */; };
+		01000000000000000000000D /* ChapterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000D /* ChapterListViewModel.swift */; };
+		01000000000000000000000E /* ReaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000E /* ReaderViewModel.swift */; };
+		01000000000000000000000F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02000000000000000000000F /* SearchViewModel.swift */; };
+		010000000000000000000010 /* BookmarksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000010 /* BookmarksView.swift */; };
+		010000000000000000000011 /* ChapterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000011 /* ChapterListView.swift */; };
+		010000000000000000000012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000012 /* ContentView.swift */; };
+		010000000000000000000013 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000013 /* FavoritesView.swift */; };
+		010000000000000000000014 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000014 /* ReaderView.swift */; };
+		010000000000000000000015 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000015 /* SettingsView.swift */; };
+		010000000000000000000016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020000000000000000000016 /* Assets.xcassets */; };
+		010000000000000000000017 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 050000000000000000000001 /* SwiftSoup */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		020000000000000000000000 /* FreeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020000000000000000000001 /* FreeReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeReaderApp.swift; sourceTree = "<group>"; };
+		020000000000000000000002 /* Bookmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		020000000000000000000003 /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		020000000000000000000004 /* ChapterContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterContent.swift; sourceTree = "<group>"; };
+		020000000000000000000005 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		020000000000000000000006 /* Novel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Novel.swift; sourceTree = "<group>"; };
+		020000000000000000000007 /* ReaderSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderSettings.swift; sourceTree = "<group>"; };
+		020000000000000000000008 /* ReadingProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingProgress.swift; sourceTree = "<group>"; };
+		020000000000000000000009 /* CacheStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheStore.swift; sourceTree = "<group>"; };
+		02000000000000000000000A /* HJWZWService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJWZWService.swift; sourceTree = "<group>"; };
+		02000000000000000000000B /* HTMLTextExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLTextExtractor.swift; sourceTree = "<group>"; };
+		02000000000000000000000C /* LibraryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryStore.swift; sourceTree = "<group>"; };
+		02000000000000000000000D /* ChapterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListViewModel.swift; sourceTree = "<group>"; };
+		02000000000000000000000E /* ReaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderViewModel.swift; sourceTree = "<group>"; };
+		02000000000000000000000F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		020000000000000000000010 /* BookmarksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksView.swift; sourceTree = "<group>"; };
+		020000000000000000000011 /* ChapterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterListView.swift; sourceTree = "<group>"; };
+		020000000000000000000012 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		020000000000000000000013 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		020000000000000000000014 /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		020000000000000000000015 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		020000000000000000000016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		020000000000000000000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000017 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040000000000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				040000000000000000000001 /* FreeReader */,
+				040000000000000000000007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040000000000000000000001 /* FreeReader */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000001 /* FreeReaderApp.swift */,
+				020000000000000000000016 /* Assets.xcassets */,
+				020000000000000000000017 /* Info.plist */,
+				040000000000000000000002 /* Models */,
+				040000000000000000000003 /* Services */,
+				040000000000000000000004 /* ViewModels */,
+				040000000000000000000005 /* Views */,
+			);
+			path = FreeReader;
+			sourceTree = "<group>";
+		};
+		040000000000000000000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000002 /* Bookmark.swift */,
+				020000000000000000000003 /* Chapter.swift */,
+				020000000000000000000004 /* ChapterContent.swift */,
+				020000000000000000000005 /* Favorite.swift */,
+				020000000000000000000006 /* Novel.swift */,
+				020000000000000000000007 /* ReaderSettings.swift */,
+				020000000000000000000008 /* ReadingProgress.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		040000000000000000000003 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000009 /* CacheStore.swift */,
+				02000000000000000000000A /* HJWZWService.swift */,
+				02000000000000000000000B /* HTMLTextExtractor.swift */,
+				02000000000000000000000C /* LibraryStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		040000000000000000000004 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				02000000000000000000000D /* ChapterListViewModel.swift */,
+				02000000000000000000000E /* ReaderViewModel.swift */,
+				02000000000000000000000F /* SearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		040000000000000000000005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000010 /* BookmarksView.swift */,
+				020000000000000000000011 /* ChapterListView.swift */,
+				020000000000000000000012 /* ContentView.swift */,
+				020000000000000000000013 /* FavoritesView.swift */,
+				020000000000000000000014 /* ReaderView.swift */,
+				020000000000000000000015 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		040000000000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020000000000000000000000 /* FreeReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2B2B2B2B2B2B2B2B2B2B2B2 /* FreeReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 060000000000000000000002 /* Build configuration list for PBXNativeTarget "FreeReader" */;
+			buildPhases = (
+				030000000000000000000001 /* Sources */,
+				030000000000000000000003 /* Frameworks */,
+				030000000000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeReader;
+			packageProductDependencies = (
+				050000000000000000000001 /* SwiftSoup */,
+			);
+			productName = FreeReader;
+			productReference = 020000000000000000000000 /* FreeReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1A1A1A1A1A1A1A1A1A1A1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1700;
+				TargetAttributes = {
+					B2B2B2B2B2B2B2B2B2B2B2B2 = {
+						CreatedOnToolsVersion = 17.0;
+					};
+				};
+			};
+			buildConfigurationList = 060000000000000000000001 /* Build configuration list for PBXProject "FreeReader" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			mainGroup = 040000000000000000000000;
+			packageReferences = (
+				070000000000000000000001 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 040000000000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B2B2B2B2B2B2B2B2B2B2B2 /* FreeReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000016 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010000000000000000000001 /* FreeReaderApp.swift in Sources */,
+				010000000000000000000002 /* Bookmark.swift in Sources */,
+				010000000000000000000003 /* Chapter.swift in Sources */,
+				010000000000000000000004 /* ChapterContent.swift in Sources */,
+				010000000000000000000005 /* Favorite.swift in Sources */,
+				010000000000000000000006 /* Novel.swift in Sources */,
+				010000000000000000000007 /* ReaderSettings.swift in Sources */,
+				010000000000000000000008 /* ReadingProgress.swift in Sources */,
+				010000000000000000000009 /* CacheStore.swift in Sources */,
+				01000000000000000000000A /* HJWZWService.swift in Sources */,
+				01000000000000000000000B /* HTMLTextExtractor.swift in Sources */,
+				01000000000000000000000C /* LibraryStore.swift in Sources */,
+				01000000000000000000000D /* ChapterListViewModel.swift in Sources */,
+				01000000000000000000000E /* ReaderViewModel.swift in Sources */,
+				01000000000000000000000F /* SearchViewModel.swift in Sources */,
+				010000000000000000000010 /* BookmarksView.swift in Sources */,
+				010000000000000000000011 /* ChapterListView.swift in Sources */,
+				010000000000000000000012 /* ContentView.swift in Sources */,
+				010000000000000000000013 /* FavoritesView.swift in Sources */,
+				010000000000000000000014 /* ReaderView.swift in Sources */,
+				010000000000000000000015 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		080000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		080000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FreeReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.free.reader;
+				PRODUCT_NAME = FreeReader;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		080000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FreeReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.free.reader;
+				PRODUCT_NAME = FreeReader;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		060000000000000000000001 /* Build configuration list for PBXProject "FreeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080000000000000000000001 /* Debug */,
+				080000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		060000000000000000000002 /* Build configuration list for PBXNativeTarget "FreeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080000000000000000000003 /* Debug */,
+				080000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		070000000000000000000001 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		050000000000000000000001 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 070000000000000000000001 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A1A1A1A1A1A1A1A1A1A1A1A1 /* Project object */;
+}
+
